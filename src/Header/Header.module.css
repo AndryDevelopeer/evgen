@@ -3,7 +3,7 @@
     background-color: black;
     color: azure;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 
 }
 .nav{
@@ -12,4 +12,5 @@
 }
 .navItem{
     margin: 10%;
+    color: lightsalmon;
 }
