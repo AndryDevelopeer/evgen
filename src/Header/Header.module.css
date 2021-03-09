@@ -1,0 +1,15 @@
+.header{
+    height: 50px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: left;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navItem{
+    margin: 10%;
+}
