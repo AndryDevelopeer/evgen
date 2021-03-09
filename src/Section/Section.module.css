@@ -27,6 +27,7 @@
 }
 body{
     color: azure;
+
 }
 
 .img {
@@ -34,6 +35,7 @@ body{
     margin-top: 5%;
     overflow: hidden;
     border-radius: 5px;
+
 
 }
 .about{
@@ -45,6 +47,7 @@ body{
 .work{
     display: flex;
     justify-content: center;
+
 }
 .img_work{
   width: 100%;
