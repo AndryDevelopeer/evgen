@@ -25,7 +25,7 @@ function Section() {
             </div>
 
             <ScrollableAnchor id={'about'}>
-                <div className={s.id_about}>
+                <div >
                 </div>
             </ScrollableAnchor>
 
@@ -51,6 +51,7 @@ function Section() {
                     </div>
                 </div>
             </div>
+
             <ScrollableAnchor id={"work"}>
                 <div>
 
