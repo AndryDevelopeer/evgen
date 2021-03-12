@@ -106,6 +106,7 @@ body {
     overflow: hidden;
     border-radius: 2%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    height:auto;
 }
 
 .contact {
@@ -129,6 +130,7 @@ body {
     margin: 2% 1% 1% 1%;
     border-radius: 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    height:auto;
 }
 
 .footer {
