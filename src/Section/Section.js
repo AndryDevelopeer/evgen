@@ -12,10 +12,12 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 function Section() {
+
     return (
         <div>
             <div className={s.header}>
                 <div className={s.nav}>
+                    <div className={s.navName}>Zhenya Kudryavtsev</div>
                     <div className={s.navItem}><a href={'#about'}> About </a></div>
                     <div className={s.navItem}><a href={'#work'}>Work</a></div>
                     <div className={s.navItem}><a href={"#contact"}>Contact</a></div>
@@ -32,16 +34,20 @@ function Section() {
                     <img className={s.img} src={logo} alt="logo"/>
                 </div>
                 <div className={s.content_text}>
-                    <h1>Евгений Кудрявцев</h1>
-                    <div className={s.about_text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-                        consequatur corporis esse est,
-                        ipsum, laboriosam mollitia nostrum placeat praesentium quidem sit suscipit vel voluptatem.
-                        Expedita
-                        facilis repellendus sed vel voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. A
-                        amet architecto deleniti error eum fugit, maxime nemo nesciunt qui quod ratione, rem
-                        reprehenderit
-                        saepe sunt, voluptates? Alias delectus inventore non?
+                    <h1>Zhenya Kudryavtsev, tattoo artist from Krakow, Poland.</h1> <br/>
+                    <div className={s.about_text}>I was born and raised in Russia and moved to Polska at age of 28. For
+                        3 years I lived and studied in Saint Petherburg, where I’ve learned the craft of tattooing
+                        during an apprenticeship at Siberian Inc Tattoo. <br/>
+
+                        In 2020 I moved to Kraków. Where I continue to tattoo and create art.<br/>
+
+                        Main source of inspiration for me comes from figurative studies of human body and nature. I
+                        enjoy to create pieces that shows conflict of topic, gestures and contrast of ideas with main
+                        object of a human life in nature, society, and within.<br/>
+
+                        When choosing next tattoo project priority always goes to ideas that are unique, to clients who
+                        are open to get artistic piece and willing to sacrifice part of their body for a free reign
+                        design. I would like to combine different styles of tattoos and experiment with something new.
                     </div>
                 </div>
             </div>
@@ -79,17 +85,13 @@ function Section() {
                     <br/>
                     evgeny.kd98@gmail.com <br/>
                     <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aperiam assumenda, autem
-                    blanditiis eaque et fugit laborum maiores necessitatibus nesciunt nostrum pariatur provident quaerat
-                    quia tempora tempore tenetur voluptate.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus eaque expedita itaque
-                    nemo nesciunt quisquam rerum. Aliquam dolore doloremque, error eum maiores recusandae tenetur totam.
-                    Adipisci assumenda dolores quisquam.
+                    All works can be seen in my instagram profile
                 </div>
             </div>
             <footer className={s.footer}>
-                <div className={s.footer_item}><a href="https://www.instagram.com/evgeny.kd/">instagram.com</a></div>
-                <div className={s.footer_item}><a href="https://vk.com/evgeny_tattoo">vk.com</a></div>
+                <div className={s.footer_item}><a target={"_blank"}
+                                                  href="https://www.instagram.com/evgeny.kd/">instagram.com</a></div>
+                <div className={s.footer_item}><a target={"_blank"} href="https://vk.com/evgeny_tattoo">vk.com</a></div>
 
             </footer>
         </div>
