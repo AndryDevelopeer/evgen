@@ -61,7 +61,6 @@ function Section() {
                 <div>
                     <h2>Work</h2>
                 </div>
-
                 <div className={s.work}>
                     <img className={s.img_work} src={wokr} alt="wokr"/>
                     <img className={s.img_work} src={work2} alt="work2"/>
